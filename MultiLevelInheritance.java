@@ -1,4 +1,4 @@
-public class SUPER {
+public class MultiLevelInheritance {
 
     public static void main(String[] args) {
         // super() is used to call the constructor of the parent class or keyword refers
@@ -78,4 +78,23 @@ class SuperHero extends Person {
     public String toString() {
         return super.toString() + this.power;
     }
+}
+
+class Villain extends SuperHero{
+
+    int level;
+
+    Villain(String name, int age, String power, int level) {
+        super(name, age, power);
+        this.level = level;
+        
+    }
+
+    Villain(Villain other){
+        super(other);
+        this.level = other.level;
+    }
+
+
+   
 }

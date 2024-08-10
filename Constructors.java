@@ -1,5 +1,5 @@
 public class Constructors {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Human man1 = new Human("Badar", 21, 88);
         Human man2 = new Human();
 
@@ -11,36 +11,35 @@ public class Constructors {
 
         man1.eat();
 
-
     }
 }
 
-class Human{
+class Human {
     String name;
     int age;
     double weight;
 
-    Human (Human other){
-        
+    Human(Human other) {
+
         this.name = other.name;
         this.age = other.age;
         this.weight = other.weight;
     }
 
-    Human(){
-        this ("Badar", 21, 88);
-        //here this is basically Human. Calling a constructor from another constructor
-        //Internally its like new Human("Badar", 21, 88);
+    Human() {
+        this("Badar", 21, 88);
+        // here this is basically Human. Calling a constructor from another constructor
+        // Internally its like new Human("Badar", 21, 88);
     }
 
-    Human(String name, int age, double weight){
+    Human(String name, int age, double weight) {
         this.name = name;
         this.age = age;
         this.weight = weight;
 
     }
 
-    void eat(){
+    void eat() {
         System.out.println(this.name + "is khaitese");
     }
 }
