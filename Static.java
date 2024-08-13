@@ -12,7 +12,7 @@ public class Static {
 
     static void fun(){
         Static obj = new Static(); //Static instead of Main bcz its in "Static" class.
-        obj.hello(); //Without object u cant use the non static method. So create an object first to use hello() function or method.
+        obj.hello(); //Without object u cant use the non static method. So create an object first to use hello() function or method.lll
     }
 
     void hello(){
