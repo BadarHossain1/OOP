@@ -48,7 +48,7 @@ class Person {
         //Its exactly same as Person man = new SuperHero("Thor", 115, "Thunder");
         //old will have access to the Person class variables, not to the sub class variable like power variable.
         this.name = old.name;
-        this.age = old.age; 
+        this.age = old.age;
     }
 
     //Super class will have no knowledge of the sub class.  

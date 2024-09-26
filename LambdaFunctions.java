@@ -52,3 +52,4 @@ public class LambdaFunctions {
 interface Operation{
     int operation(int a , int b);
 }
+
