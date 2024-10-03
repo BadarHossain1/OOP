@@ -11,4 +11,9 @@ public class Encapsulation {
         // * Use the private access modifier to all variables/fields of class as private.
         // * Define public setter and getter methods to read and modify/set the value
 
+
+
+
+    
+
 }
