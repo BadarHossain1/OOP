@@ -9,7 +9,7 @@ public class Polymorphism {
 
     //1: Compile Time/ Static Polymorphism = Achieved via method Overloading(Same name but types, arguments, return types can be different). Static binding.
 
-    //2: Runtime / Dynamic Polymorphism = Achieved by method overriding. Dynamic Binding.g
+    //2: Runtime / Dynamic Polymorphism = Achieved by method overriding. Dynamic Binding.
 
     
 
