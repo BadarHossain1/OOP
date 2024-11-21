@@ -9,4 +9,14 @@ public class Abstraction {
     // 1: Abstract class.
     // 2: Interface. 
 
+
+    // #Abstract class:
+
+    // Abstract classes have only declaration, but no definition. 
+    // Class Contains at least one abstract method.
+    // Abstract class have abstract and non-abstract method.
+
+    
+
 }
+ 

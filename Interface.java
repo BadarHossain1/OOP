@@ -15,29 +15,20 @@ public class Interface {
 
         // Happens at run time, do not use in performance critical code
 
-
-        NiceCar car3 = new NiceCar(); //By default Power Engine
+        NiceCar car3 = new NiceCar(); // By default Power Engine
 
         car3.start();
         car3.StartMusic();
 
-
-
-
-
-        
-
     }
 }
 
-
-class NiceCar{
+class NiceCar {
     private Engine engine;
 
     private Media player = new CDPlayer();
 
-
-    public NiceCar(){
+    public NiceCar() {
         engine = new PowerEngine();
     }
 
@@ -53,15 +44,15 @@ class NiceCar{
         engine.stop();
     }
 
-    public void StartMusic(){
+    public void StartMusic() {
         player.start();
     }
 
-    public void StopMusic(){
+    public void StopMusic() {
         player.stop();
     }
 
-    public void ChangeEngine(){
+    public void ChangeEngine() {
         this.engine = new ElectricEngine();
     }
 
@@ -164,25 +155,23 @@ interface Media {
     void stop();
 }
 
+// Extend Interfaces
 
-
-//Extend Interfaces
-
-
-interface A{
+interface A {
     // void a();
-    
-    default void a(){
+
+    default void a() {
         System.out.println("A");
 
     } // with default you do not need overriding
 }
 
-interface B extends A{
+interface B extends A {
     void b();
 }
 
 class C implements B{
+    n
 
     // @Override
     // public void a() {
@@ -198,13 +187,12 @@ class C implements B{
 
 }
 
+// Static interface methods always have a body, because they only be used from
+// the interface only and cannot be overridden.
 
-// Static interface methods always have a body, because they only be used from the interface only and cannot be overridden.
+interface D {
 
-
-interface D{
-
-    static void greet(){
+    static void greet() {
         System.out.println("Hello");
     }
 
@@ -214,22 +202,18 @@ interface D{
 
 }
 
-
-
 // Nested Interface
 
-class Nested{
-    interface NestedInterface{
+class Nested {
+    interface NestedInterface {
         boolean isOdd(int num);
     }
 }
 
-class E implements Nested.NestedInterface{
-    
-        @Override
-        public boolean isOdd(int num) {
-            return num % 2 != 0;
-        }
+class E implements Nested.NestedInterface {
+
+    @Override
+    public boolean isOdd(int num) {
+        return num % 2 != 0;
+    }
 }
-
-

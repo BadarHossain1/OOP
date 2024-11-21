@@ -1,8 +1,10 @@
 public class ExceptionHandling {
 
-    // Error is un recoverable and the program cant handle it
+    // Error is un recoverable and the program cant handle it.
 
-    // Exception is that you divide by zero. Arithmetic exception
+    // Exception is basically catching an unexpected event.
+
+    // Exception is that you divide by zero. Arithmetic exception.
 
     public static void main(String[] args) {
         int a = 10;

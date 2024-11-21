@@ -24,7 +24,7 @@ class Student{
         this.cgpa = cgpa;
     }
 
-    //object gets destroyed by java without any manual need. When a lot of object is created and it takes a toll on the memory, java destroys objects
+    //object gets destroyed by java without any manual need. When a lot of object is created and it takes a toll on the memory, java destroys objects.
 
     @Override
     protected void finalize() throws Throwable {

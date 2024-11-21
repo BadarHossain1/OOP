@@ -1,7 +1,7 @@
 package Polymorphism;
 public class Polymorphism {
 
-    // Poly means "many" and morphism means way to "represent". Basically
+    // Poly means "many" and morphism means way to "represent".  
     // Polymorphism(Greek) means many ways to represent. 
     // Java is an object oriented programming language bcz it supports Polymorphism
 
@@ -16,3 +16,5 @@ public class Polymorphism {
 
 
 }
+
+ 
