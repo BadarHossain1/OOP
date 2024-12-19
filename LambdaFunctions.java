@@ -50,6 +50,7 @@ public class LambdaFunctions {
 
 
 interface Operation{
+    // Functional Interface. Only one abstract method inside a functional interface. 
     int operation(int a , int b);
 }
 
